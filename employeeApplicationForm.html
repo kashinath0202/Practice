@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Employee Application Form </title>
+    <link rel="shortcut icon" href="developer.png" type="image/x-icon">
+    <style>
+        div {
+            background-color: rgb(135, 214, 224);
+            height: 628px;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <form>
+
+            <fieldset style="border-radius: 25px; border-color: red; height:600px;">
+                <legend style="text-align:center;color:rgb(53, 182, 21);"> Employee Application Form </legend>
+                <h2><strong style="margin-left:250px;background-color:indianred;color: aqua;">EMPLOYEE DATA</strong>
+                </h2>
+
+                <table>
+                    <tr>
+                        <td><label for="name">Full Name</label></td>
+                        <td><input type="text" placeholder="Full Name" required maxlength="20" autofocus id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Address</label></td>
+                        <td> <input type="Email" placeholder="abc@gmail.com" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password</label></td>
+                        <td><input type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"> Mobile Number</label></td>
+                        <td><input maxlength="10" required id="phone" placeholder="+91" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="photo"> Profile Photo</label></td>
+                        <td><input type="file" id="photo"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Date Of Birth</label></td>
+                        <td><input required type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="Gender">
+                            <label>Male</label>
+                            <input type="radio" name="Gender">
+                            <label>Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Marital status</label> </td>
+                        <td>
+                            <input type="radio" name="marred">
+                            <label>Yes</label>
+                            <input type="radio" name="marred">
+                            <label>No</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Known Tools & Technology</label></td>
+                        <td>
+                            <input type="checkbox">
+                            <label>Angular</label>
+                            <input type="checkbox">
+                            <label> React </label>
+                            <input type="checkbox">
+                            <label> Python</label>
+                            <input type="checkbox">
+                            <label>Java</label>
+                            <input type="checkbox">
+                            <label>Jankin</label>
+                            <input type="checkbox">
+                            <label>GIT</label>
+                            <input type="checkbox">
+                            <label>Database</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Profile</label></td>
+                        <td>
+                            <select>
+                                <option>UI Developer </option>
+                                <option> Backend Developer</option>
+                                <option>Full Stack Developer</option>
+                                <option>DevOps Engineer</option>
+                                <option>Tester</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Country</label></td>
+                        <td><input type="text" value="India" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label>Present Address</label></td>
+                        <td> <textarea cols="30" rows="7"></textarea></td>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><input type="Submit" style="color:green; font-size:large;"></td>
+                        <td><input type="Reset" style="color: red;font-size:large;"></td>
+                        <td><a href="form.html" target="_blank"
+                                style="margin-right:100px ;color:rgba(16, 37, 224, 0.877); font-size: x-large; ">Back</a>
+                        </td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
